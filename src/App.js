@@ -9,7 +9,16 @@ export default function App() {
     instructions: "To use your coupon, click the button below.",
   });
 
-  function spendGiftCard() {}
+  function spendGiftCard() {
+    setGiftCard((prevState) => {
+      return {
+        ...prevState,
+        valid: false,
+        text: "Your coupon has been used",
+        instructions: "Please visit our restaurant to renew your gift card",
+      };
+    });
+  }
 
   return (
     <div style={{ padding: "40px" }}>
