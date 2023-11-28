@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function App() {
   const [toggle, setToggle] = useState(false);
@@ -6,6 +6,12 @@ export default function App() {
   function clickHandler(e) {
     setToggle(!toggle);
   }
+
+  useEffect(() => {
+    document.title = toggle
+      ? "Welcome to little lemon"
+      : "Using useEffect hook";
+  });
 
   return (
     <div>
