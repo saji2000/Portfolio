@@ -11,7 +11,7 @@ export default function App() {
     document.title = toggle
       ? "Welcome to little lemon"
       : "Using useEffect hook";
-  });
+  }, [toggle]);
 
   return (
     <div>
