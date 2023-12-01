@@ -1,23 +1,32 @@
 import { useState, useEffect } from "react";
 
 export default function App() {
-  const [toggle, setToggle] = useState(false);
+  const [dataB, setBtc] = useState({});
 
-  function clickHandler(e) {
-    setToggle(!toggle);
-  }
+  const fetchData = () => {
+    fetch("https://api.coindesk.com/v1/bpi/currentprice.json")
+      .then((response) => response.json())
+      .then((jsonData) => setBtc(jsonData.bpi.USD))
+      .catch((error) => console.log(error));
+  };
 
   useEffect(() => {
-    document.title = toggle
-      ? "Welcome to little lemon"
-      : "Using useEffect hook";
-  }, [toggle]);
+    fetchData();
+  }, []);
+
+  // if (!dataB) {
+  //   // You can return a loading indicator or null while data is being fetched
+  //   return <div>Loading...</div>;
+  // }
 
   return (
     <div>
-      <h1>Use Effect Lesson</h1>
-      <button onClick={clickHandler}>Toggle Message</button>
-      {toggle && <h2>Welcome to little lemon</h2>}
+      <h1>Current BTC price</h1>
+      <p>Code: {dataB.code || "N/A"}</p>
+      <p>Symbol: {dataB.symbol || "N/A"}</p>
+      <p>Rate: {dataB.rate || "N/A"}</p>
+      <p>Description: {dataB.description || "N/A"}</p>
+      <p>Rate Float: {dataB.rate_float || "N/A"}</p>
     </div>
   );
 }
