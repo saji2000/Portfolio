@@ -1,32 +1,27 @@
 import { useState, useEffect } from "react";
 
-export default function App() {
-  const [dataB, setBtc] = useState({});
+function App() {
+  const [user, setUser] = useState([]);
 
   const fetchData = () => {
-    fetch("https://api.coindesk.com/v1/bpi/currentprice.json")
+    fetch("https://randomuser.me/api/?results=1")
       .then((response) => response.json())
-      .then((jsonData) => setBtc(jsonData.bpi.USD))
-      .catch((error) => console.log(error));
+      .then((data) => setUser(data));
   };
 
   useEffect(() => {
     fetchData();
   }, []);
 
-  // if (!dataB) {
-  //   // You can return a loading indicator or null while data is being fetched
-  //   return <div>Loading...</div>;
-  // }
-
-  return (
+  return Object.keys(user).length > 0 ? (
     <div>
-      <h1>Current BTC price</h1>
-      <p>Code: {dataB.code || "N/A"}</p>
-      <p>Symbol: {dataB.symbol || "N/A"}</p>
-      <p>Rate: {dataB.rate || "N/A"}</p>
-      <p>Description: {dataB.description || "N/A"}</p>
-      <p>Rate Float: {dataB.rate_float || "N/A"}</p>
+      <h1>Customer data</h1>
+      <h2>Name: {user.results[0].name.first}</h2>
+      <img src={user.results[0].picture.large} alt=""></img>
     </div>
+  ) : (
+    <h1>Data pending...</h1>
   );
 }
+
+export default App;
