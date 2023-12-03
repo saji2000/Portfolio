@@ -1,26 +1,30 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useReducer } from "react";
+
+function reducer(state, action) {
+  if (action.type === "buy grocery") {
+    return { money: state.money - 10 };
+  }
+  if (action.type === "sell food") {
+    return { money: state.money + 10 };
+  }
+}
 
 function App() {
-  const [user, setUser] = useState([]);
+  const initialState = { money: 100 };
+  const [state, dispatch] = useReducer(reducer, initialState);
 
-  const fetchData = () => {
-    fetch("https://randomuser.me/api/?results=1")
-      .then((response) => response.json())
-      .then((data) => setUser(data));
-  };
-
-  useEffect(() => {
-    fetchData();
-  }, []);
-
-  return Object.keys(user).length > 0 ? (
+  return (
     <div>
-      <h1>Customer data</h1>
-      <h2>Name: {user.results[0].name.first}</h2>
-      <img src={user.results[0].picture.large} alt=""></img>
+      <h1>Wallet: {state.money}</h1>
+      <div>
+        <button onClick={() => dispatch({ type: "buy grocery" })}>
+          buy grocery
+        </button>
+        <button onClick={() => dispatch({ type: "sell food" })}>
+          sell food
+        </button>
+      </div>
     </div>
-  ) : (
-    <h1>Data pending...</h1>
   );
 }
 
