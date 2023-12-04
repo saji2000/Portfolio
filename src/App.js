@@ -1,29 +1,13 @@
-import { useState, useEffect, useReducer } from "react";
-
-function reducer(state, action) {
-  if (action.type === "buy grocery") {
-    return { money: state.money - 10 };
-  }
-  if (action.type === "sell food") {
-    return { money: state.money + 10 };
-  }
-}
+import { useRef } from "react";
 
 function App() {
-  const initialState = { money: 100 };
-  const [state, dispatch] = useReducer(reducer, initialState);
+  const formInputRef = useRef(null);
 
   return (
     <div>
-      <h1>Wallet: {state.money}</h1>
-      <div>
-        <button onClick={() => dispatch({ type: "buy grocery" })}>
-          buy grocery
-        </button>
-        <button onClick={() => dispatch({ type: "sell food" })}>
-          sell food
-        </button>
-      </div>
+      <h1>using useRef to access underlying DOM</h1>
+      <input ref={formInputRef} type="text"></input>
+      <button onClick={() => formInputRef.current.focus()}>Focus</button>
     </div>
   );
 }
