@@ -1,40 +1,33 @@
-import { useState, useEffect, useRef } from "react";
-export default function App() {
-  const [day, setDay] = useState("Monday");
-  const prevDay = usePrevious(day);
-  const getNextDay = () => {
-    if (day === "Monday") {
-      setDay("Tuesday");
-    } else if (day === "Tuesday") {
-      setDay("Wednesday");
-    } else if (day === "Wednesday") {
-      setDay("Thursday");
-    } else if (day === "Thursday") {
-      setDay("Friday");
-    } else if (day === "Friday") {
-      setDay("Monday");
-    }
+import * as React from "react";
+
+const Row = ({ spacing, children }) => {
+  const childStyle = {
+    marginLeft: `${spacing}px`,
   };
-  useEffect(() => {
-    console.log(prevDay);
-  });
+
   return (
-    <div style={{ padding: "40px" }}>
-      <h1>
-        Today is: {day}
-        <br />
-        {prevDay && <span>Previous work day was: {prevDay}</span>}
-      </h1>
-      <button onClick={getNextDay}>Get next day</button>
+    <div>
+      {React.Children.map(children, (child, index) => {
+        return React.cloneElement(child, {
+          style: {
+            ...child.props.style,
+            ...(index > 0 ? childStyle : {}),
+          },
+        });
+      })}
     </div>
   );
-}
-function usePrevious(val) {
-  const ref = useRef();
+};
 
-  useEffect(() => {
-    ref.current = val;
-  }, [val]);
-
-  return ref.current;
+export default function App() {
+  return (
+    <div>
+      <Row spacing={23}>
+        <p>Pizza Margarita</p>
+        <p>22$</p>
+        <p>8:35 PM</p>
+        <p>Hasan</p>
+      </Row>
+    </div>
+  );
 }
