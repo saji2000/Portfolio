@@ -1,33 +1,21 @@
-import * as React from "react";
+import "./App.css";
+import { RadioGroup, RadioOption } from "./Radio";
+import { useState } from "react";
 
-const Row = ({ spacing, children }) => {
-  const childStyle = {
-    marginLeft: `${spacing}px`,
-  };
-
+function App() {
+  const [selected, setSelected] = useState("");
   return (
-    <div>
-      {React.Children.map(children, (child, index) => {
-        return React.cloneElement(child, {
-          style: {
-            ...child.props.style,
-            ...(index > 0 ? childStyle : {}),
-          },
-        });
-      })}
-    </div>
-  );
-};
-
-export default function App() {
-  return (
-    <div>
-      <Row spacing={23}>
-        <p>Pizza Margarita</p>
-        <p>22$</p>
-        <p>8:35 PM</p>
-        <p>Hasan</p>
-      </Row>
+    <div className="App">
+      <h2>How did you hear about Little Lemon?</h2>
+      <RadioGroup onChange={setSelected} selected={selected}>
+        <RadioOption value="social_media">Social Media</RadioOption>
+        <RadioOption value="friends">Friends</RadioOption>
+        <RadioOption value="advertising">Advertising</RadioOption>
+        <RadioOption value="other">Other</RadioOption>
+      </RadioGroup>
+      <button disabled={!selected}>Submit</button>
     </div>
   );
 }
+
+export default App;
