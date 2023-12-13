@@ -2,18 +2,36 @@ import "./App.css";
 import { RadioGroup, RadioOption } from "./Radio";
 import { useState } from "react";
 
+const Button = ({ type, children, ...buttonProps }) => {
+  const className = type === "primary" ? "PrimaryButton" : "SecondaryButton";
+  return (
+    <button className={`Button ${className}`} {...buttonProps}>
+      {children}
+    </button>
+  );
+};
+
+const LoginButton = ({ type, children, ...buttonProps }) => {
+  return (
+    <Button
+      type="secondary"
+      {...buttonProps}
+      onClick={() => alert("Logging in!")}
+    >
+      {children}
+    </Button>
+  );
+};
+
 function App() {
   const [selected, setSelected] = useState("");
   return (
     <div className="App">
-      <h2>How did you hear about Little Lemon?</h2>
-      <RadioGroup onChange={setSelected} selected={selected}>
-        <RadioOption value="social_media">Social Media</RadioOption>
-        <RadioOption value="friends">Friends</RadioOption>
-        <RadioOption value="advertising">Advertising</RadioOption>
-        <RadioOption value="other">Other</RadioOption>
-      </RadioGroup>
-      <button disabled={!selected}>Submit</button>
+      <header className="Header">Little Lemon Restaurant</header>
+      <Button type="primary" onClick={() => alert("sign up!")}>
+        Sign Up
+      </Button>
+      <LoginButton type="secondary">Login</LoginButton>
     </div>
   );
 }
