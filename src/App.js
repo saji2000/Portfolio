@@ -2,6 +2,7 @@ import "./App.css";
 import { RadioGroup, RadioOption } from "./Radio";
 import { useState } from "react";
 
+// Button component
 const Button = ({ type, children, ...buttonProps }) => {
   const className = type === "primary" ? "PrimaryButton" : "SecondaryButton";
   return (
@@ -11,6 +12,7 @@ const Button = ({ type, children, ...buttonProps }) => {
   );
 };
 
+// LoginButton component
 const LoginButton = ({ type, children, ...buttonProps }) => {
   return (
     <Button
@@ -23,8 +25,10 @@ const LoginButton = ({ type, children, ...buttonProps }) => {
   );
 };
 
+// App component
 function App() {
-  const [selected, setSelected] = useState("");
+  const [selected, setSelected] = useState(""); // State hook to manage selected value
+
   return (
     <div className="App">
       <header className="Header">Little Lemon Restaurant</header>
