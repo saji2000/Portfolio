@@ -27,7 +27,7 @@ const LandingSection = () => {
       submit("", values);
     },
     validationSchema: Yup.object({
-      name: Yup.string().required("Required"),
+      firstName: Yup.string().required("Required"),
       email: Yup.string().email("Invalid email").required("Required"),
       type: Yup.string().optional(),
       comment: Yup.string().required().min(25),
@@ -48,19 +48,32 @@ const LandingSection = () => {
         <Box p={6} rounded="md" w="100%">
           <form>
             <VStack spacing={4}>
-              <FormControl isInvalid={false}>
+              <FormControl
+                isInvalid={
+                  formik.touched.firstName && Boolean(formik.errors.firstName)
+                }
+              >
                 <FormLabel htmlFor="firstName">Name</FormLabel>
-                <Input id="firstName" name="firstName" />
-                <FormErrorMessage></FormErrorMessage>
+                <Input
+                  id="firstName"
+                  name="firstName"
+                  {...formik.getFieldProps("firstName")}
+                />
+                <FormErrorMessage>{formik.errors.firstName}</FormErrorMessage>
               </FormControl>
               <FormControl isInvalid={false}>
                 <FormLabel htmlFor="email">Email Address</FormLabel>
-                <Input id="email" name="email" type="email" />
+                <Input
+                  id="email"
+                  name="email"
+                  type="email"
+                  {...formik.getFieldProps("email")}
+                />
                 <FormErrorMessage></FormErrorMessage>
               </FormControl>
               <FormControl>
                 <FormLabel htmlFor="type">Type of enquiry</FormLabel>
-                <Select id="type" name="type">
+                <Select id="type" name="type" {...formik.getFieldProps("type")}>
                   <option value="hireMe">Freelance project proposal</option>
                   <option value="openSource">
                     Open source consultancy session
@@ -70,7 +83,12 @@ const LandingSection = () => {
               </FormControl>
               <FormControl isInvalid={false}>
                 <FormLabel htmlFor="comment">Your message</FormLabel>
-                <Textarea id="comment" name="comment" height={250} />
+                <Textarea
+                  id="comment"
+                  name="comment"
+                  height={250}
+                  {...formik.getFieldProps("comment")}
+                />
                 <FormErrorMessage></FormErrorMessage>
               </FormControl>
               <Button type="submit" colorScheme="purple" width="full">
