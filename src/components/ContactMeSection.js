@@ -37,6 +37,16 @@ const LandingSection = () => {
     }),
   });
 
+  useEffect(() => {
+    if (response) {
+      onOpen(response.type, response.message);
+
+      if (response.type === "success") {
+        formik.resetForm();
+      }
+    }
+  }, [response]);
+
   return (
     <FullScreenSection
       isDarkBackground
@@ -49,7 +59,7 @@ const LandingSection = () => {
           Contact me
         </Heading>
         <Box p={6} rounded="md" w="100%">
-          <form>
+          <form onSubmit={formik.handleSubmit}>
             <VStack spacing={4}>
               <FormControl
                 isInvalid={
@@ -100,7 +110,12 @@ const LandingSection = () => {
                 />
                 <FormErrorMessage>{formik.errors.comment}</FormErrorMessage>
               </FormControl>
-              <Button type="submit" colorScheme="purple" width="full">
+              <Button
+                type="submit"
+                colorScheme="purple"
+                width="full"
+                isLoading={isLoading}
+              >
                 Submit
               </Button>
             </VStack>
