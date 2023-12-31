@@ -12,7 +12,7 @@ import { Box, HStack } from "@chakra-ui/react";
 const socials = [
   {
     icon: faEnvelope,
-    url: "mailto: seyedsaj@ualberta.ca",
+    url: "mailto: sajaddaneshmand79@gmail.com",
   },
   {
     icon: faGithub,
@@ -82,8 +82,6 @@ const Header = () => {
                 </a>
               ))}
             </HStack>
-
-            {/* Add social media links based on the `socials` data */}
           </nav>
           <nav>
             <HStack spacing={8}>
@@ -92,7 +90,6 @@ const Header = () => {
                   {description}
                 </a>
               ))}
-              {/* Add links to Projects and Contact me section */}
             </HStack>
           </nav>
         </HStack>
