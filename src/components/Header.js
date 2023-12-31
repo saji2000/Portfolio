@@ -22,14 +22,14 @@ const socials = [
     icon: faLinkedin,
     url: "https://www.linkedin.com/in/sajad-danesh/",
   },
-  // {
-  //   icon: faMedium,
-  //   url: "https://medium.com",
-  // },
-  // {
-  //   icon: faStackOverflow,
-  //   url: "https://stackoverflow.com",
-  // },
+  {
+    icon: faMedium,
+    url: "https://medium.com",
+  },
+  {
+    icon: faStackOverflow,
+    url: "https://stackoverflow.com",
+  },
 ];
 
 const internals = [
