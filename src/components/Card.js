@@ -8,7 +8,7 @@ const Card = ({ title, description, imageSrc, link }) => {
   // You should be able to implement the component with the elements imported above.
   // Feel free to import other UI components from Chakra UI if you wish to.
 
-  link = "https://github.com/";
+  // link = "https://github.com/";
 
   return (
     <HStack>
