@@ -1,6 +1,6 @@
 {
   "homepage": "http://saji2000.github.io/Portfolio",
-  "name": "my-app",
+  "name": "Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
