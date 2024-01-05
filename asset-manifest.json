@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.df6a7eab.css",
-    "main.js": "/Portfolio/static/js/main.e6ffb3d7.js",
+    "main.js": "/Portfolio/static/js/main.a817359d.js",
     "static/js/787.dcde50e9.chunk.js": "/Portfolio/static/js/787.dcde50e9.chunk.js",
-    "static/media/photo4.jpg": "/Portfolio/static/media/photo4.4c7907d15dd9ea0be97c.jpg",
-    "static/media/photo2.jpg": "/Portfolio/static/media/photo2.7d510936625768642967.jpg",
-    "static/media/photo3.jpg": "/Portfolio/static/media/photo3.9a32dfac129b20149889.jpg",
-    "static/media/weather-images.jpg": "/Portfolio/static/media/weather-images.e0daa4031f651e5ecf75.jpg",
+    "static/media/OSM.png": "/Portfolio/static/media/OSM.7dc4ce09c5b19dcc83f1.png",
+    "static/media/UEvents.png": "/Portfolio/static/media/UEvents.044c99e84b870c21ed7b.png",
+    "static/media/weather-images.jpg": "/Portfolio/static/media/weather-images.1c3c915928268231d778.jpg",
+    "static/media/maple-logo.png": "/Portfolio/static/media/maple-logo.191dd82c200d168b5780.png",
     "index.html": "/Portfolio/index.html",
     "main.df6a7eab.css.map": "/Portfolio/static/css/main.df6a7eab.css.map",
-    "main.e6ffb3d7.js.map": "/Portfolio/static/js/main.e6ffb3d7.js.map",
+    "main.a817359d.js.map": "/Portfolio/static/js/main.a817359d.js.map",
     "787.dcde50e9.chunk.js.map": "/Portfolio/static/js/787.dcde50e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df6a7eab.css",
-    "static/js/main.e6ffb3d7.js"
+    "static/js/main.a817359d.js"
   ]
 }
