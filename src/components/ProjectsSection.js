@@ -7,29 +7,29 @@ const projects = [
   {
     title: "Weather App",
     description:
-      "City Weather Dashboard is a React app providing real-time global weather updates using GeoDB Cities and OpenWeather APIs, perfect for timely info on multiple locations.",
+      "City Weather Dashboard is a React.js app providing real-time global weather updates using GeoDB Cities and OpenWeather APIs, perfect for timely info on multiple locations.",
     getImageSrc: () => require("../images/weather-images.jpg"),
     link: "https://github.com/saji2000/weather-app",
   },
   {
-    title: "React Infinite Scroll",
+    title: "Maple",
     description:
-      "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land 🔥️",
-    getImageSrc: () => require("../images/photo2.jpg"),
-    link: "https://github.com/saji2000/weather-app",
+      "A complex dating mobile application which uses Node.js, MySQL, Firebase for the back-end and Flutter for front-end, published on both iOS and Android.",
+    getImageSrc: () => require("../images/maple-logo.png"),
+    link: "https://maple.dating",
   },
   {
-    title: "Photo Gallery",
+    title: "UEvents",
     description:
-      "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
-    getImageSrc: () => require("../images/photo3.jpg"),
-    link: "https://github.com/saji2000/weather-app",
+      "An event planning tool for University of Alberta students and groups developed using Node.js, Express.js, DynamoDB, EC2, S3 for the back-end and React.js and Material UI for front-end.",
+    getImageSrc: () => require("../images/UEvents.png"),
+    link: "https://github.com/ECE493-Group11-UEvents/UEvents-API",
   },
   {
-    title: "Event planner",
+    title: "Edmonton OSM",
     description:
-      "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
-    getImageSrc: () => require("../images/photo4.jpg"),
+      "Developed a SQLite3 database using Python for Edmonton's OpenStreetMap data. Focused on extracting specific details like restaurant names, park accessibility, and locations.",
+    getImageSrc: () => require("../images/OSM.png"),
     link: "https://github.com/saji2000/weather-app",
   },
 ];
