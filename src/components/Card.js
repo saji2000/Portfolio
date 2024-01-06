@@ -19,7 +19,7 @@ const Card = ({ title, description, imageSrc, link }) => {
           {description}
         </Text>
         <HStack color="black" mb="10px">
-          <a href={link}>
+          <a href={link} target="_blank">
             See more <FontAwesomeIcon icon={faArrowRight} size="1x" />
           </a>
         </HStack>

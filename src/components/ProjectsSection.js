@@ -30,7 +30,7 @@ const projects = [
     description:
       "Developed a SQLite3 database using Python for Edmonton's OpenStreetMap data. Focused on extracting specific details like restaurant names, park accessibility, and locations.",
     getImageSrc: () => require("../images/OSM.png"),
-    link: "https://github.com/saji2000/weather-app",
+    link: "https://github.com/saji2000/Edmonton-OSM",
   },
 ];
 
