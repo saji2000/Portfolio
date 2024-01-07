@@ -7,9 +7,9 @@ const projects = [
   {
     title: "Weather App",
     description:
-      "City Weather Dashboard is a React.js app providing real-time global weather updates using GeoDB Cities and OpenWeather APIs, perfect for timely info on multiple locations.",
+      "City Weather Dashboard is a React.js app providing real-time global weather updates using GeoDB Cities and OpenWeather APIs deployed on AWS S3, perfect for timely info on multiple locations.",
     getImageSrc: () => require("../images/weather-images.jpg"),
-    link: "https://github.com/saji2000/weather-app",
+    link: "http://sajad-portfolio.s3-website.us-east-2.amazonaws.com/",
   },
   {
     title: "Maple",
