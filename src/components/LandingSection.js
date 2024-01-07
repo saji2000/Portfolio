@@ -3,6 +3,7 @@ import {
   Avatar,
   Heading,
   VStack,
+  HStack,
   Text,
   ListItem,
   UnorderedList,
@@ -34,7 +35,7 @@ const LandingSection = () => (
       {/* <Heading size="xl">{bio1}</Heading>
       <Heading size="xl">{bio2}</Heading> */}
       <Heading size="lg" mt="10px">
-        Education:
+        👨🏻‍🎓 Education:
       </Heading>
       <Text fontSize="lg">
         Bachelor of Applied Sciences in Software Engineering - University of
@@ -42,7 +43,7 @@ const LandingSection = () => (
       </Text>
 
       <Heading size="lg" mt="20px">
-        Skills:
+        💻 Skills:
       </Heading>
       <Text fontSize="lg">
         JavaScript, React.js, Node.js, Python, Django, Java, C/C++, Front-End,
@@ -50,9 +51,109 @@ const LandingSection = () => (
         GitHub, Scrum, Agile, Software Development Life Cycle (SDLC), Jira,
         Trello, Slack.
       </Text>
-
+      <HStack spacing={4}>
+        {" "}
+        {/* Use HStack to create a horizontal layout */}
+        <a href="https://www.javascript.com" target="_blank">
+          <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+            alt="javascript"
+            width="60"
+            height="60"
+          />
+        </a>
+        <a href="https://react.dev" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+            alt="reactjs"
+            width="60"
+            height="60"
+          />
+        </a>
+        <a href="https://nodejs.org/en/" target="_blank">
+          {" "}
+          <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"
+            alt="nodejs"
+            width="60"
+            height="60"
+          />{" "}
+        </a>
+        <a href="https://www.mysql.com/" target="_blank">
+          {" "}
+          <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
+            alt="mysql"
+            width="60"
+            height="60"
+          />{" "}
+        </a>
+        <a href="https://www.mongodb.com/" target="_blank">
+          {" "}
+          <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg"
+            alt="mongodb"
+            width="60"
+            height="60"
+          />{" "}
+        </a>
+        <a href="https://www.python.org" target="_blank">
+          {" "}
+          <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+            alt="python"
+            width="60"
+            height="60"
+          />{" "}
+        </a>
+        <a href="https://www.cprogramming.com/" target="_blank">
+          {" "}
+          <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"
+            alt="c"
+            width="60"
+            height="60"
+          />{" "}
+        </a>
+        <a href="https://www.cplusplus.com/" target="_blank">
+          {" "}
+          <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+            alt="c++"
+            width="60"
+            height="60"
+          />{" "}
+        </a>
+        <a href="https://www.java.com" target="_blank">
+          {" "}
+          <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+            alt="java"
+            width="60"
+            height="60"
+          />{" "}
+        </a>
+        <a href="https://www.tensorflow.org" target="_blank">
+          {" "}
+          <img
+            src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg"
+            alt="tensorflow"
+            width="60"
+            height="60"
+          />{" "}
+        </a>
+        <a href="https://git-scm.com/" target="_blank">
+          {" "}
+          <img
+            src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+            alt="git"
+            width="60"
+            height="60"
+          />{" "}
+        </a>
+      </HStack>
       <Heading size="lg" mt="20px">
-        Work Expereince:
+        👨🏻‍💻 Work Expereince:
       </Heading>
       <Text fontSize="lg">
         CEO & Co-Founder – Maple Dating Inc. – Oct 2018 – Dec 2023
