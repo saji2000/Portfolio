@@ -1,19 +1,22 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.df6a7eab.css",
-    "main.js": "/Portfolio/static/js/main.1d566b9b.js",
+    "main.js": "/Portfolio/static/js/main.b9fcb6b6.js",
     "static/js/787.dcde50e9.chunk.js": "/Portfolio/static/js/787.dcde50e9.chunk.js",
     "static/media/OSM.png": "/Portfolio/static/media/OSM.7dc4ce09c5b19dcc83f1.png",
     "static/media/UEvents.png": "/Portfolio/static/media/UEvents.044c99e84b870c21ed7b.png",
+    "static/media/Supervised Machine Learning.pdf": "/Portfolio/static/media/Supervised Machine Learning.f5d9ebb4d5302a379f5a.pdf",
+    "static/media/Advanced React.pdf": "/Portfolio/static/media/Advanced React.735848487ad065bf8595.pdf",
     "static/media/weather-images.jpg": "/Portfolio/static/media/weather-images.1c3c915928268231d778.jpg",
+    "static/media/Stanford.png": "/Portfolio/static/media/Stanford.ec04f53f3cb7f1a139c7.png",
     "static/media/maple-logo.png": "/Portfolio/static/media/maple-logo.191dd82c200d168b5780.png",
     "index.html": "/Portfolio/index.html",
     "main.df6a7eab.css.map": "/Portfolio/static/css/main.df6a7eab.css.map",
-    "main.1d566b9b.js.map": "/Portfolio/static/js/main.1d566b9b.js.map",
+    "main.b9fcb6b6.js.map": "/Portfolio/static/js/main.b9fcb6b6.js.map",
     "787.dcde50e9.chunk.js.map": "/Portfolio/static/js/787.dcde50e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df6a7eab.css",
-    "static/js/main.1d566b9b.js"
+    "static/js/main.b9fcb6b6.js"
   ]
 }
