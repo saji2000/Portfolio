@@ -80,6 +80,15 @@ const LandingSection = () => (
             height="60"
           />{" "}
         </a>
+        <a href="https://www.aws.com/" target="_blank">
+          {" "}
+          <img
+            src="https://cdn.iconscout.com/icon/free/png-512/free-aws-1869025-1583149.png?f=webp&w=512"
+            alt="aws"
+            width="60"
+            height="60"
+          />{" "}
+        </a>
         <a href="https://www.mysql.com/" target="_blank">
           {" "}
           <img
@@ -156,7 +165,7 @@ const LandingSection = () => (
       <Heading size="lg" mt="20px">
         👨🏻‍💻 Work Expereince:
       </Heading>
-      <Text fontSize="lg">
+      <Text fontSize="xl">
         CEO & Co-Founder – Maple Dating Inc. – Oct 2018 – Dec 2023
       </Text>
       <UnorderedList spacing={3}>
