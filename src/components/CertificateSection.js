@@ -19,11 +19,11 @@ const CertificateSection = () => (
     backgroundColor="#2b2b2b"
     w="90%"
   >
-    <VStack>
+    <VStack justifyContent="center" alignItems="center">
       <Heading size="lg" mt="10px">
         📚 Certifcates:
       </Heading>
-      <HStack spacing={4} alignItems="center">
+      <HStack spacing={4}>
         <img alt="Meta" src={require("../images/Meta.png")} />
         <Text fontSize="xl" ml="20px">
           Advanced React by Meta
@@ -42,7 +42,7 @@ const CertificateSection = () => (
           width="300"
         ></iframe>
       </HStack>
-      <HStack spacing={4} alignItems="center">
+      <HStack spacing={4}>
         <img
           alt="Stanford"
           src={require("../images/Stanford.png")}
@@ -68,7 +68,7 @@ const CertificateSection = () => (
       <Heading size="lg" mt="10px" mb="20px">
         📈 GitHub Stats:
       </Heading>
-      <HStack>
+      <HStack justifyContent="center" alignItems="center">
         <img
           src="https://github-readme-stats.vercel.app/api/top-langs/?username=saji2000&layout=compact&theme=radical&langs_count=6&hide=html,Makefile&exclude_repo=leetcode"
           alt="Sajad's GitHub Language Stats"
