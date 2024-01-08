@@ -34,6 +34,10 @@ const socials = [
 
 const internals = [
   {
+    description: "Certificates",
+    id: "certificates",
+  },
+  {
     description: "Projects",
     id: "projects",
   },

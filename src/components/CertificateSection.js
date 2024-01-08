@@ -16,11 +16,12 @@ const CertificateSection = () => (
     justifyContent="center"
     alignItems="center"
     isDarkBackground
-    backgroundColor="#2b2b2b"
+    // backgroundColor="#2b2b2b"
+    bgImage={require("../images/dark-purple.jpg")}
     w="90%"
   >
     <VStack justifyContent="center" alignItems="center">
-      <Heading size="lg" mt="10px">
+      <Heading size="lg" mt="10px" id="certificates-section">
         📚 Certifcates:
       </Heading>
       <HStack spacing={4}>

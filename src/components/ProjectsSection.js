@@ -37,7 +37,8 @@ const projects = [
 const ProjectsSection = () => {
   return (
     <FullScreenSection
-      backgroundColor="#14532d"
+      // backgroundColor="#14532d"
+      bgImage={require("../images/dark-pink.jpg")}
       isDarkBackground
       p={8}
       alignItems="flex-start"

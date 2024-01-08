@@ -22,8 +22,9 @@ const LandingSection = () => (
     justifyContent="center"
     alignItems="center"
     isDarkBackground
-    backgroundColor="#2A4365"
-    w="70%"
+    // backgroundColor="#2A4365"
+    bgImage={require("../images/dark.jpg")} // URL of your background image
+    w="80%"
   >
     <VStack>
       <Avatar
