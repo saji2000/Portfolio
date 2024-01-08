@@ -1,22 +1,26 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.df6a7eab.css",
-    "main.js": "/Portfolio/static/js/main.9d72b0ba.js",
+    "main.js": "/Portfolio/static/js/main.235dd940.js",
     "static/js/787.dcde50e9.chunk.js": "/Portfolio/static/js/787.dcde50e9.chunk.js",
     "static/media/OSM.png": "/Portfolio/static/media/OSM.7dc4ce09c5b19dcc83f1.png",
     "static/media/UEvents.png": "/Portfolio/static/media/UEvents.044c99e84b870c21ed7b.png",
     "static/media/Supervised Machine Learning.pdf": "/Portfolio/static/media/Supervised Machine Learning.f5d9ebb4d5302a379f5a.pdf",
     "static/media/Advanced React.pdf": "/Portfolio/static/media/Advanced React.735848487ad065bf8595.pdf",
+    "static/media/dark.jpg": "/Portfolio/static/media/dark.34bf9e24d1c083bdd42b.jpg",
+    "static/media/light.jpg": "/Portfolio/static/media/light.6924775dc86683514523.jpg",
     "static/media/weather-images.jpg": "/Portfolio/static/media/weather-images.1c3c915928268231d778.jpg",
+    "static/media/dark-purple.jpg": "/Portfolio/static/media/dark-purple.f74b9812f9fbf6ea496f.jpg",
+    "static/media/dark-pink.jpg": "/Portfolio/static/media/dark-pink.683bdc94ec38219cae8e.jpg",
     "static/media/Stanford.png": "/Portfolio/static/media/Stanford.ec04f53f3cb7f1a139c7.png",
     "static/media/maple-logo.png": "/Portfolio/static/media/maple-logo.191dd82c200d168b5780.png",
     "index.html": "/Portfolio/index.html",
     "main.df6a7eab.css.map": "/Portfolio/static/css/main.df6a7eab.css.map",
-    "main.9d72b0ba.js.map": "/Portfolio/static/js/main.9d72b0ba.js.map",
+    "main.235dd940.js.map": "/Portfolio/static/js/main.235dd940.js.map",
     "787.dcde50e9.chunk.js.map": "/Portfolio/static/js/787.dcde50e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df6a7eab.css",
-    "static/js/main.9d72b0ba.js"
+    "static/js/main.235dd940.js"
   ]
 }
