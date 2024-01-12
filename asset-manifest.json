@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.df6a7eab.css",
-    "main.js": "/Portfolio/static/js/main.235dd940.js",
+    "main.js": "/Portfolio/static/js/main.ed1c372c.js",
     "static/js/787.dcde50e9.chunk.js": "/Portfolio/static/js/787.dcde50e9.chunk.js",
     "static/media/OSM.png": "/Portfolio/static/media/OSM.7dc4ce09c5b19dcc83f1.png",
     "static/media/UEvents.png": "/Portfolio/static/media/UEvents.044c99e84b870c21ed7b.png",
@@ -13,14 +13,15 @@
     "static/media/dark-purple.jpg": "/Portfolio/static/media/dark-purple.f74b9812f9fbf6ea496f.jpg",
     "static/media/dark-pink.jpg": "/Portfolio/static/media/dark-pink.683bdc94ec38219cae8e.jpg",
     "static/media/Stanford.png": "/Portfolio/static/media/Stanford.ec04f53f3cb7f1a139c7.png",
+    "static/media/Sajad.jpeg": "/Portfolio/static/media/Sajad.24a77026ba32c55afda5.jpeg",
     "static/media/maple-logo.png": "/Portfolio/static/media/maple-logo.191dd82c200d168b5780.png",
     "index.html": "/Portfolio/index.html",
     "main.df6a7eab.css.map": "/Portfolio/static/css/main.df6a7eab.css.map",
-    "main.235dd940.js.map": "/Portfolio/static/js/main.235dd940.js.map",
+    "main.ed1c372c.js.map": "/Portfolio/static/js/main.ed1c372c.js.map",
     "787.dcde50e9.chunk.js.map": "/Portfolio/static/js/787.dcde50e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df6a7eab.css",
-    "static/js/main.235dd940.js"
+    "static/js/main.ed1c372c.js"
   ]
 }
