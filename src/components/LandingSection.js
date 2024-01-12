@@ -29,7 +29,7 @@ const LandingSection = () => (
     <VStack>
       <Avatar
         name="Sajad"
-        src="https://media.licdn.com/dms/image/D5635AQHmtYRtACb8HA/profile-framedphoto-shrink_400_400/0/1695841973114?e=1705010400&v=beta&t=JeJsicbyBHOu87wydsKZdx_afIbwXN3C13FBbOzRjcY"
+        src={require("../images/Sajad.jpeg")}
         size="2xl"
       ></Avatar>
       <Heading size="md">{greeting}</Heading>
