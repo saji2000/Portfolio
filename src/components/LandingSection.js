@@ -12,8 +12,6 @@ import FullScreenSection from "./FullScreenSection";
 
 const greeting =
   "Hello, I am Sajad! A Full-Stack developer, specialised in React.js and Node.js";
-const bio1 = "";
-const bio2 = "";
 
 // Implement the UI for the LandingSection component according to the instructions.
 // Use a combination of Avatar, Heading and VStack components.
@@ -49,8 +47,8 @@ const LandingSection = () => (
       <Text fontSize="lg">
         JavaScript, React.js, Node.js, Python, Django, Java, C/C++, Front-End,
         Back-End, SQLite3, MongoDB, MySQL, AWS, DynamoDB, S3, EC2, Firebase,
-        GitHub, Scrum, Agile, Software Development Life Cycle (SDLC), Jira,
-        Trello, Slack.
+        REST APIs, GitHub, Scrum, Agile, Software Development Life Cycle (SDLC),
+        Jira, Trello, Slack.
       </Text>
       <HStack spacing={4}>
         {" "}
@@ -170,9 +168,8 @@ const LandingSection = () => (
       </Text>
       <UnorderedList spacing={3}>
         <ListItem fontSize="lg">
-          Contributed to the development of a mobile application, integrating
-          Node.js, Firebase, MySQL, MongoDB for backend and Flutter for
-          frontend, with Figma for innovative UI/UX design.
+          Collaborated on database design, query optimization and APIs using
+          Node.js on MongoDB, MySQL, and Firebase.
         </ListItem>
         <ListItem fontSize="lg">
           Formed and guided a team of 7 accomplished professionals, fostering a
