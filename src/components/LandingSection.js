@@ -17,12 +17,10 @@ const greeting =
 // Use a combination of Avatar, Heading and VStack components.
 const LandingSection = () => (
   <FullScreenSection
+    backgroundColor="#F3F3F3"
     justifyContent="center"
     alignItems="center"
-    isDarkBackground
-    // backgroundColor="#2A4365"
-    bgImage={require("../images/dark.jpg")} // URL of your background image
-    w="80%"
+    w="90%"
   >
     <VStack>
       <Avatar
@@ -31,24 +29,22 @@ const LandingSection = () => (
         size="2xl"
       ></Avatar>
       <Heading size="md">{greeting}</Heading>
-      {/* <Heading size="xl">{bio1}</Heading>
-      <Heading size="xl">{bio2}</Heading> */}
       <Heading size="lg" mt="10px">
         👨🏻‍🎓 Education:
       </Heading>
       <Text fontSize="lg">
-        Bachelor of Applied Sciences in Software Engineering - University of
-        Alberta - Sept 2018 – April 2023
+        Bachelor of Applied Sciences in Software Engineering | University of
+        Alberta | Sept 2018 – April 2023
       </Text>
 
       <Heading size="lg" mt="20px">
         💻 Skills:
       </Heading>
       <Text fontSize="lg">
-        JavaScript, React.js, Node.js, Python, Django, Java, C/C++, Front-End,
-        Back-End, SQLite3, MongoDB, MySQL, AWS, DynamoDB, S3, EC2, Firebase,
-        REST APIs, GitHub, Scrum, Agile, Software Development Life Cycle (SDLC),
-        Jira, Trello, Slack.
+        JavaScript, React.js, Node.js, Express.js, Python, Django, Java, C/C++,
+        Front-End, Back-End, SQLite3, MongoDB, MySQL, AWS, DynamoDB, S3, EC2,
+        Firebase, REST APIs, GitHub, Scrum, Agile, Software Development Life
+        Cycle (SDLC), Jira, Trello, Slack.
       </Text>
       <HStack spacing={4}>
         {" "}
@@ -163,9 +159,7 @@ const LandingSection = () => (
       <Heading size="lg" mt="20px">
         👨🏻‍💻 Work Expereince:
       </Heading>
-      <Text fontSize="xl">
-        CEO & Co-Founder – Maple Dating Inc. – Oct 2018 – Dec 2023
-      </Text>
+      <Text fontSize="xl">CEO & Co-Founder | Maple | Oct 2018 | Dec 2023</Text>
       <UnorderedList spacing={3}>
         <ListItem fontSize="lg">
           Collaborated on database design, query optimization and APIs using

@@ -26,19 +26,19 @@ const projects = [
     link: "https://github.com/ECE493-Group11-UEvents/UEvents-API",
   },
   {
-    title: "Edmonton OSM",
+    title: "Social Network",
     description:
-      "Developed a SQLite3 database using Python for Edmonton's OpenStreetMap data. Focused on extracting specific details like restaurant names, park accessibility, and locations.",
-    getImageSrc: () => require("../images/OSM.png"),
-    link: "https://github.com/saji2000/Edmonton-OSM",
+      "Social networking application created by React.js and MUI (Material UI), has features such as navigation bar, side bars, feed, posts, dark theme and etc.",
+    getImageSrc: () => require("../images/logo.png"),
+    link: "http://sajad-social-network.s3-website.us-east-2.amazonaws.com",
   },
 ];
 
 const ProjectsSection = () => {
   return (
     <FullScreenSection
-      // backgroundColor="#14532d"
-      bgImage={require("../images/dark-pink.jpg")}
+      backgroundColor="#1A1A1A"
+      // bgImage={require("../images/dark-pink.jpg")}
       isDarkBackground
       p={8}
       alignItems="flex-start"

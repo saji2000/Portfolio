@@ -12,12 +12,12 @@ const FullScreenSection = ({
 }) => {
   return (
     <VStack
-      backgroundColor={boxProps.backgroundColor}
       color={isDarkBackground ? "white" : "black"}
       background={bgImage ? `url(${bgImage})` : "none"} // Set the background image
-      // backgroundSize="cover" // Cover the entire section
-      // backgroundRepeat="no-repeat"
-      // backgroundPosition="center center"
+      backgroundColor={boxProps.backgroundColor}
+      backgroundSize="cover" // Cover the entire section
+      backgroundRepeat="no-repeat"
+      backgroundPosition="center center"
     >
       <VStack maxWidth="1280px" minHeight="100vh" {...boxProps}>
         {children}
