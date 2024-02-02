@@ -162,13 +162,12 @@ const LandingSection = () => (
       <Text fontSize="xl">CEO & Co-Founder | Maple | Oct 2018 | Dec 2023</Text>
       <UnorderedList spacing={3}>
         <ListItem fontSize="lg">
-          Collaborated on database design, query optimization and APIs using
-          Node.js on MongoDB, MySQL, and Firebase.
+          Designed and optimized databases using Node.js with MongoDB, MySQL,
+          and Firebase, enhancing query performance.
         </ListItem>
         <ListItem fontSize="lg">
-          Formed and guided a team of 7 accomplished professionals, fostering a
-          collaborative atmosphere conducive to innovation and a heightened
-          commitment to quality enhancement.
+          Collaborated on user authentication, security, and REST APIs using
+          Node.js for improved user experience.
         </ListItem>
         <ListItem fontSize="lg">
           Achieved a 40% reduction in server costs through data-driven

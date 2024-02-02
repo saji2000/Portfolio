@@ -18,12 +18,31 @@ const CertificateSection = () => (
     isDarkBackground
     // backgroundColor="#2b2b2b"
     bgImage={require("../images/dark-purple.jpg")}
-    w="90%"
+    w="95%"
   >
     <VStack justifyContent="center" alignItems="center">
       <Heading size="lg" mt="10px" id="certificates-section">
         📚 Certifcates:
       </Heading>
+      <HStack spacing={4}>
+        <img alt="Meta" src={require("../images/IBM_logo.svg.png")} />
+        <Text fontSize="xl" ml="20px">
+          Node.js / Express.js by IBM
+        </Text>
+        <UnorderedList spacing={3}>
+          <ListItem fontSize="lg">
+            Covered server-side JavaScript with Node.js, asynchronous I/O,
+            Express.js framework, and REST APIs development, focusing on web
+            server creation, callback programming, and dynamic content
+            management through practical projects.
+          </ListItem>
+        </UnorderedList>
+        <iframe
+          src={require("../images/Node.js.pdf")}
+          height="200"
+          width="300"
+        ></iframe>
+      </HStack>
       <HStack spacing={4}>
         <img alt="Meta" src={require("../images/Meta.png")} />
         <Text fontSize="xl" ml="20px">
@@ -86,6 +105,7 @@ const CertificateSection = () => (
             borderRadius: "5px",
             borderColor: "#e4e2e3",
             borderWidth: "1px",
+            marginBottom: "10px",
           }}
         >
           <GitHubCalendar username="saji2000" />
