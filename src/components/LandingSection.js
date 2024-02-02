@@ -41,10 +41,10 @@ const LandingSection = () => (
         💻 Skills:
       </Heading>
       <Text fontSize="lg">
-        JavaScript, React.js, Node.js, Express.js, Python, Django, Java, C/C++,
-        Front-End, Back-End, SQLite3, MongoDB, MySQL, AWS, DynamoDB, S3, EC2,
-        Firebase, REST APIs, GitHub, Scrum, Agile, Software Development Life
-        Cycle (SDLC), Jira, Trello, Slack.
+        JavaScript, React.js, Node.js, Express.js, MUI, Python, Django, Java,
+        C/C++, PHP, Front-End, Back-End, SQLite3, MongoDB, MySQL, AWS, DynamoDB,
+        S3, EC2, Firebase, REST APIs, GitHub, Scrum, Agile, Software Development
+        Life Cycle (SDLC), Jira, Trello, Slack.
       </Text>
       <HStack spacing={4}>
         {" "}
