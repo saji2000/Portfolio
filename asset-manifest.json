@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.df6a7eab.css",
-    "main.js": "/Portfolio/static/js/main.90c5c3ed.js",
+    "main.js": "/Portfolio/static/js/main.7e0541da.js",
     "static/js/787.dcde50e9.chunk.js": "/Portfolio/static/js/787.dcde50e9.chunk.js",
     "static/media/UEvents.png": "/Portfolio/static/media/UEvents.044c99e84b870c21ed7b.png",
     "static/media/Supervised Machine Learning.pdf": "/Portfolio/static/media/Supervised Machine Learning.f5d9ebb4d5302a379f5a.pdf",
+    "static/media/Node.js.pdf": "/Portfolio/static/media/Node.js.22959330a816f16579f9.pdf",
     "static/media/logo.png": "/Portfolio/static/media/logo.01893443387550d3a787.png",
     "static/media/Advanced React.pdf": "/Portfolio/static/media/Advanced React.735848487ad065bf8595.pdf",
     "static/media/light.jpg": "/Portfolio/static/media/light.6924775dc86683514523.jpg",
@@ -15,11 +16,11 @@
     "static/media/maple-logo.png": "/Portfolio/static/media/maple-logo.191dd82c200d168b5780.png",
     "index.html": "/Portfolio/index.html",
     "main.df6a7eab.css.map": "/Portfolio/static/css/main.df6a7eab.css.map",
-    "main.90c5c3ed.js.map": "/Portfolio/static/js/main.90c5c3ed.js.map",
+    "main.7e0541da.js.map": "/Portfolio/static/js/main.7e0541da.js.map",
     "787.dcde50e9.chunk.js.map": "/Portfolio/static/js/787.dcde50e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df6a7eab.css",
-    "static/js/main.90c5c3ed.js"
+    "static/js/main.7e0541da.js"
   ]
 }
