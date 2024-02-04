@@ -159,7 +159,9 @@ const LandingSection = () => (
       <Heading size="lg" mt="20px">
         👨🏻‍💻 Work Expereince:
       </Heading>
-      <Text fontSize="xl">CEO & Co-Founder | Maple | Oct 2018 | Dec 2023</Text>
+      <Text fontSize="xl">
+        Backend Developer & CEO | Maple | Oct 2018 - Feb 2024
+      </Text>
       <UnorderedList spacing={3}>
         <ListItem fontSize="lg">
           Designed and optimized databases using Node.js with MongoDB, MySQL,
