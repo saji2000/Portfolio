@@ -41,11 +41,11 @@ const LandingSection = () => (
         💻 Skills:
       </Heading>
       <Text fontSize="lg">
-        JavaScript, React.js, Next.js, Node.js, Express.js, MUI, Python, Django,
-        Java, C/C++, PHP, Front-End, Back-End, NoSQL, SQL SQLite3, MongoDB,
-        MySQL, AWS, DynamoDB, S3, EC2, Firebase, CI/CD, REST APIs. GitHub,
-        Scrum, Agile, Software Development Life Cycle (SDLC), Jira, Trello,
-        Slack.
+        JavaScript, React.js, Next.js, Node.js, Express.js, Next.js, TypeScript,
+        MUI, Python, Django, Java, C/C++, PHP, Front-End, Back-End, NoSQL, SQL
+        SQLite3, MongoDB, MySQL, AWS, DynamoDB, S3, EC2, Firebase, CI/CD, REST
+        APIs. GitHub, Scrum, Agile, Software Development Life Cycle (SDLC),
+        Jira, Trello, Slack.
       </Text>
       <HStack spacing={4}>
         {" "}
@@ -161,7 +161,7 @@ const LandingSection = () => (
         👨🏻‍💻 Work Expereince:
       </Heading>
       <Text fontSize="xl">
-        Backend Developer & CEO | Maple | Oct 2018 - Feb 2024
+        Backend Developer & CEO | Maple | May 2021 - Feb 2024
       </Text>
       <UnorderedList spacing={3}>
         <ListItem fontSize="lg">
@@ -170,7 +170,7 @@ const LandingSection = () => (
         </ListItem>
         <ListItem fontSize="lg">
           Collaborated on user authentication, security, and REST APIs using
-          Node.js for improved user experience.
+          Node.js/Express.js for improved user experience.
         </ListItem>
         <ListItem fontSize="lg">
           Achieved a 40% reduction in server costs through data-driven
