@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.df6a7eab.css",
-    "main.js": "/Portfolio/static/js/main.7077a2c0.js",
+    "main.js": "/Portfolio/static/js/main.e90ae01e.js",
     "static/js/787.dcde50e9.chunk.js": "/Portfolio/static/js/787.dcde50e9.chunk.js",
     "static/media/UEvents.png": "/Portfolio/static/media/UEvents.044c99e84b870c21ed7b.png",
     "static/media/Supervised Machine Learning.pdf": "/Portfolio/static/media/Supervised Machine Learning.f5d9ebb4d5302a379f5a.pdf",
@@ -16,11 +16,11 @@
     "static/media/maple-logo.png": "/Portfolio/static/media/maple-logo.191dd82c200d168b5780.png",
     "index.html": "/Portfolio/index.html",
     "main.df6a7eab.css.map": "/Portfolio/static/css/main.df6a7eab.css.map",
-    "main.7077a2c0.js.map": "/Portfolio/static/js/main.7077a2c0.js.map",
+    "main.e90ae01e.js.map": "/Portfolio/static/js/main.e90ae01e.js.map",
     "787.dcde50e9.chunk.js.map": "/Portfolio/static/js/787.dcde50e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df6a7eab.css",
-    "static/js/main.7077a2c0.js"
+    "static/js/main.e90ae01e.js"
   ]
 }
